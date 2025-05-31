@@ -14,10 +14,10 @@ public class LoginAutomationTest {
 		
 		driver.get("https://exam.uwu.ac.lk/ug/");
 		
-		driver.findElement(By.name("username")).sendKeys("iit20045@std.uwu.ac.lk" + Keys.ENTER);
+		driver.findElement(By.name("username")).sendKeys("" + Keys.ENTER);
 		
 		
-		driver.findElement(By.name("password")).sendKeys("Jknight@1823" + Keys.ENTER);
+		driver.findElement(By.name("password")).sendKeys("" + Keys.ENTER);
 		
 		Thread.sleep(5000);
 		
